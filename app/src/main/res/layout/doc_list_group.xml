@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:background="@drawable/list_group_background"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingStart="30dp"
+    android:paddingTop="12dp"
+    android:paddingEnd="1dp"
+    android:paddingBottom="12dp">
+
+    <TextView
+        android:id="@+id/docGroupName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center"
+        android:layout_weight="0.80"
+        android:gravity="start"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#0D0D0D"
+        android:textSize="@dimen/group_list_text_size"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/docGroupCounts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center"
+        android:layout_weight="0.20"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="end|center"
+        android:paddingStart="2dp"
+        android:paddingEnd="20dp"
+        android:textColor="#0D0D0D"
+        android:textSize="@dimen/group_list_text_size"
+        android:text="[10/1000]" />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ls_block"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#FFFFFF"
+    android:focusableInTouchMode="true"
+    >
+    <EditText
+        android:id="@+id/document_search"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/filter_input_background"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:padding="10dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:textColorHint="#35353F"
+        android:inputType="textFilter"
+        android:singleLine="true"
+        android:hint="@string/hint_search"
+        android:drawableEnd="@drawable/search_mini"
+        android:importantForAutofill="no" />
+
+    <ExpandableListView
+        android:id="@+id/docs_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:background="@android:color/white"
+        android:listSelector="@color/selectedRow">
+    </ExpandableListView>
+</LinearLayout>

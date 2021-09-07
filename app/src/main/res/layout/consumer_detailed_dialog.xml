@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="*"
+            android:padding="12dp">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/lbl_document_number"
+                    android:textColor="@color/detailed_lbl_color"
+                    android:textSize="@dimen/detailed_lbl_size" />
+
+                <TextView
+                    android:id="@+id/document_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/detailed_tv_color"
+                    android:textSize="@dimen/detailed_tv_size" />
+            </TableRow>
+
+            <TableRow android:paddingTop="@dimen/detailed_row_padding">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/lbl_consumer"
+                    android:textColor="@color/detailed_lbl_color"
+                    android:textSize="@dimen/detailed_lbl_size" />
+
+                <TextView
+                    android:id="@+id/consumer_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/detailed_tv_color"
+                    android:textSize="@dimen/detailed_tv_size" />
+            </TableRow>
+
+            <TableRow android:paddingTop="@dimen/detailed_row_padding">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/lbl_location"
+                    android:textColor="@color/detailed_lbl_color"
+                    android:textSize="@dimen/detailed_lbl_size" />
+
+                <TextView
+                    android:id="@+id/consumer_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/detailed_tv_color"
+                    android:textSize="@dimen/detailed_tv_size" />
+            </TableRow>
+
+            <TableRow android:paddingTop="@dimen/detailed_row_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/lbl_mechanism_number"
+                    android:textColor="@color/detailed_lbl_color"
+                    android:textSize="@dimen/detailed_lbl_size" />
+
+                <TextView
+                    android:id="@+id/mechanism_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/detailed_tv_color"
+                    android:textSize="@dimen/detailed_tv_size" />
+            </TableRow>
+
+            <TableRow android:paddingTop="@dimen/detailed_row_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/lbl_mechanism_type"
+                    android:textColor="@color/detailed_lbl_color"
+                    android:textSize="@dimen/detailed_lbl_size" />
+
+                <TextView
+                    android:id="@+id/mechanism_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/detailed_tv_color"
+                    android:textSize="@dimen/detailed_tv_size" />
+            </TableRow>
+
+            <TableRow android:paddingTop="@dimen/detailed_row_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/lbl_mechanism_capacity_after"
+                    android:textColor="@color/detailed_lbl_color"
+                    android:textSize="@dimen/detailed_lbl_size" />
+
+                <TextView
+                    android:id="@+id/mechanism_capacity_after"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/detailed_tv_color"
+                    android:textSize="@dimen/detailed_tv_size" />
+            </TableRow>
+
+            <TableRow android:paddingTop="@dimen/detailed_row_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/lbl_mechanism_zone_count"
+                    android:textColor="@color/detailed_lbl_color"
+                    android:textSize="@dimen/detailed_lbl_size" />
+
+                <TextView
+                    android:id="@+id/mechanism_zone_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/detailed_tv_color"
+                    android:textSize="@dimen/detailed_tv_size" />
+            </TableRow>
+
+            <TableRow android:paddingTop="@dimen/detailed_row_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/lbl_mechanism_ratio"
+                    android:textColor="@color/detailed_lbl_color"
+                    android:textSize="@dimen/detailed_lbl_size" />
+
+                <TextView
+                    android:id="@+id/mechanism_ratio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/detailed_tv_color"
+                    android:textSize="@dimen/detailed_tv_size" />
+            </TableRow>
+
+            <TableRow android:paddingTop="@dimen/detailed_row_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/lbl_mechanism_install_dt"
+                    android:textColor="@color/detailed_lbl_color"
+                    android:textSize="@dimen/detailed_lbl_size" />
+
+                <TextView
+                    android:id="@+id/mechanism_install_dt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/detailed_tv_color"
+                    android:textSize="@dimen/detailed_tv_size" />
+            </TableRow>
+
+            <TableRow android:paddingTop="@dimen/detailed_row_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/lbl_fitting_position"
+                    android:textColor="@color/detailed_lbl_color"
+                    android:textSize="@dimen/detailed_lbl_size" />
+
+                <TextView
+                    android:id="@+id/fitting_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/detailed_tv_color"
+                    android:textSize="@dimen/detailed_tv_size" />
+            </TableRow>
+
+            <TableRow android:paddingTop="@dimen/detailed_row_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/lbl_mechanism_verification_dt"
+                    android:textColor="@color/detailed_lbl_color"
+                    android:textSize="@dimen/detailed_lbl_size" />
+
+                <TextView
+                    android:id="@+id/mechanism_verification_dt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/detailed_tv_color"
+                    android:textSize="@dimen/detailed_tv_size" />
+            </TableRow>
+
+            <TableRow android:paddingTop="@dimen/detailed_row_padding">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/lbl_mechanism_seal"
+                    android:textColor="@color/detailed_lbl_color"
+                    android:textSize="@dimen/detailed_lbl_size" />
+
+                <TextView
+                    android:id="@+id/mechanism_seal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/detailed_tv_color"
+                    android:textSize="@dimen/detailed_tv_size" />
+            </TableRow>
+
+            <TableRow android:paddingTop="@dimen/detailed_row_padding">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/lbl_average"
+                    android:textColor="@color/detailed_lbl_color"
+                    android:textSize="@dimen/detailed_lbl_size" />
+
+                <TextView
+                    android:id="@+id/average_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/detailed_tv_color"
+                    android:textSize="@dimen/detailed_tv_size" />
+            </TableRow>
+
+            <TableRow android:paddingTop="@dimen/detailed_row_padding">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/lbl_consumer_phone"
+                    android:textColor="@color/detailed_lbl_color"
+                    android:textSize="@dimen/detailed_lbl_size" />
+
+                <TextView
+                    android:id="@+id/consumer_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/detailed_tv_color"
+                    android:textSize="@dimen/detailed_tv_size" />
+            </TableRow>
+
+            <TableRow android:paddingTop="@dimen/detailed_row_padding">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/gps_lbl"
+                    android:textColor="@color/detailed_lbl_color"
+                    android:textSize="@dimen/detailed_lbl_size" />
+
+                <TextView
+                    android:id="@+id/consumer_gps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/detailed_tv_color"
+                    android:textSize="@dimen/detailed_tv_size" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+

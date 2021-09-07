@@ -1,0 +1,23 @@
+<!-- drawable/bg.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="359dp"
+    android:height="40dp"
+    android:viewportWidth="359"
+    android:viewportHeight="40">
+
+    <group>
+
+        <clip-path android:pathData="M4 0H355C357.209 0 359 1.79086 359 4V36C359 38.2091 357.209 40 355 40H4C1.79086 40 0 38.2091 0 36V4C0 1.79086 1.79086 0 4 0Z" />
+
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M0 0V40H359V0" />
+
+        <path
+            android:pathData="M4 0H355C357.209 0 359 1.79086 359 4V36C359 38.2091 357.209 40 355 40H4C1.79086 40 0 38.2091 0 36V4C0 1.79086 1.79086 0 4 0Z"
+            android:strokeWidth="2"
+            android:strokeColor="#676779" />
+
+    </group>
+
+</vector>

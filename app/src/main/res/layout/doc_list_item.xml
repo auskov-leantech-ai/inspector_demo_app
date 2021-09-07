@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:orientation="horizontal"
+    android:background="#FFFFFF"
+    android:focusable="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_weight="0.80"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/doc_list_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:maxLength="125"
+            android:layout_marginTop="10dp"
+            android:paddingStart="?android:attr/expandableListPreferredChildPaddingLeft"
+            android:paddingEnd="0dp"
+            android:text="@string/app_name"
+            android:textColor="#35353F"
+            android:textSize="@dimen/group_item_text_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/doc_list_item_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:paddingStart="?android:attr/expandableListPreferredChildPaddingLeft"
+                android:paddingEnd="0dp"
+                android:text="@string/app_name"
+                android:textColor="#787888"
+                android:textSize="@dimen/group_item_text_size" />
+
+            <TextView
+                android:id="@+id/doc_list_item_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="#2DE411"
+                android:textSize="12sp"
+                android:text="(1 м.)"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/consumer_state_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center|end"
+        android:layout_weight=".20"
+        android:layout_marginEnd="15dp"
+        android:contentDescription="@string/image_default_desc"
+        android:foregroundGravity="center"
+        android:src="@drawable/not_data_state" />
+
+</LinearLayout>

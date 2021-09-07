@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFF9700</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="buttonColor">#FFFFFF</color>
+    <color name="selectedRow">#D6EAFF</color>
+    <color name="detailed_lbl_color">#212126</color>
+    <color name="detailed_tv_color">#212126</color>
+    <color name="current_reading_color">#35353F</color>
+    <color name="comment_text_color">#35353F</color>
+    <color name="geo_lbl_color">#FFFFFF</color>
+    <color name="background">#E5E5E5</color>
+    <color name="menu_color">#56566A</color>
+</resources>

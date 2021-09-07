@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/main_menu_action_1"
+        android:icon="@drawable/download"
+        android:title="Получение"
+        />
+    <item
+        android:id="@+id/main_menu_action_2"
+        android:icon="@drawable/upload"
+        android:title="Выгрузка" />
+    <item
+        android:id="@+id/main_menu_action_3"
+        android:icon="@drawable/settings"
+        android:title="Настройки" />
+    <item
+        android:id="@+id/main_menu_action_4"
+        android:icon="@drawable/about"
+        android:title="О программе" />
+</menu>
