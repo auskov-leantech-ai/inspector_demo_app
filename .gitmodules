@@ -1,0 +1,3 @@
+[submodule "app/src/main/assets/EC_models"]
+	path = app/src/main/assets/EC_models
+	url = https://github.com/haimin777/EC_models

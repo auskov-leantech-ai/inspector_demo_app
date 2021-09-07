@@ -493,7 +493,7 @@ class CameraFragment : Fragment() {
 
     @Throws(IOException::class)
     private fun loadModelFile(assetManager: AssetManager): MappedByteBuffer {
-        val fileDescriptor = assetManager.openFd("model_892.tflite")
+        val fileDescriptor = assetManager.openFd("EC_models/model_892.tflite")
         val inputStream = FileInputStream(fileDescriptor.fileDescriptor)
         val fileChannel = inputStream.channel
         val startOffset = fileDescriptor.startOffset
