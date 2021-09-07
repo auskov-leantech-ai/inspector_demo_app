@@ -14,13 +14,13 @@ object Minio {
         .build()
 
     fun uploadFile(fileName: String, path: String) {
-//        minioClient.uploadObject(
-//            UploadObjectArgs.builder()
-//                .bucket("counters")
-//                .`object`(fileName)
-//                .contentType("image/jpeg")
-//                .filename(path)
-//                .build()
-//        )
+        minioClient.uploadObject(
+            UploadObjectArgs.builder()
+                .bucket("counters")
+                .`object`(fileName)
+                .contentType("image/jpeg")
+                .filename(path)
+                .build()
+        )
     }
 }
